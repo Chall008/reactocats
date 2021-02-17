@@ -1,7 +1,156 @@
 import React, { Component } from 'react'
+import { Octocat } from './components/Octocat'
 
 export class App extends Component {
   render() {
-    return <div>Hello, World!</div>
+    return (
+      <div>
+        <header>
+          <nav>
+            <section>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img
+                      src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                      alt="GithubLogo"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <strong>Octodex</strong>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="https://octodex.github.com/faq/">FAQ</a>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <ul>
+                <li>
+                  <a href="https://twitter.com/githubdesign">
+                    Follow us on Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/">Back to GitHub.com</a>
+                </li>
+              </ul>
+            </section>
+          </nav>
+        </header>
+        <main>
+          <Octocat
+            imgLink="https://octodex.github.com//octogatos/"
+            imgSRC="https://octodex.github.com//images/Octogatos.png"
+            number="#148"
+            catName="Octogatos"
+            authorLink="https://github.com/cameronfoxly"
+            authorSRC="https://github.com/cameronfoxly.png"
+            authorName="cameronfoxly"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//terracottocat/"
+            imgSRC="https://octodex.github.com//images/Terracottocat_Single.png"
+            number="#149"
+            catName="Terracottocat"
+            authorLink="https://github.com/chubbmo"
+            authorSRC="https://github.com/chubbmo.png"
+            authorName="chubbmo"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//sentrytocat/"
+            imgSRC="https://octodex.github.com//images/Sentrytocat_octodex.jpg"
+            number="#143"
+            catName="Sentrytocat"
+            authorLink="https://github.com/cameronmcefee"
+            authorSRC="https://github.com/cameronmcefee.png"
+            authorName="cameronfoxly"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//boxertocat/"
+            imgSRC="https://octodex.github.com//images/boxertocat_octodex.jpg"
+            number="#141"
+            catName="Boxertocat"
+            authorLink="https://github.com/rubyjazzy"
+            authorSRC="https://github.com/rubyjazzy.png"
+            authorName="rubyjazzy"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//suftocat/"
+            imgSRC="https://octodex.github.com//images/surftocat.png"
+            number="#140"
+            catName="Surftocat"
+            authorLink="https://github.com/jeejkang"
+            authorSRC="https://github.com/jeejkang.png"
+            authorName="jeejkang"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//scubatocat/"
+            imgSRC="https://octodex.github.com//images/scubatocat.png"
+            number="#138"
+            catName="Scubatocat"
+            authorLink="https://github.com/cameronfoxly"
+            authorSRC="https://github.com/cameronfoxly.png"
+            authorName="cameronfoxly"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//dinotocat/"
+            imgSRC="https://octodex.github.com//images/dinotocat.png"
+            number="#130"
+            catName="Dinotocat"
+            authorLink="https://github.com/kimestoesta"
+            authorSRC="https://github.com/kimestoesta.png"
+            authorName="kimestoesta"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//spidertocat/"
+            imgSRC="https://octodex.github.com//images/spidertocat.png"
+            number="#88"
+            catName="Spidertocat"
+            authorLink="https://github.com/jeejkang"
+            authorSRC="https://github.com/jeejkang.png"
+            authorName="jeejkang"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//octoasians/"
+            imgSRC="https://octodex.github.com//images/OctoAsians_dex_Full.png"
+            number="151"
+            catName="OctoAsians"
+            authorLink="https://github.com/cameronfoxly"
+            authorSRC="https://github.com/cameronfoxly.png"
+            authorName="cameronfoxly"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//octoqueer/"
+            imgSRC="https://octodex.github.com//images/Octoqueer.png"
+            number="#150"
+            catName="Octoqueer"
+            authorLink="https://github.com/cameronfoxly"
+            authorSRC="https://github.com/cameronfoxly.png"
+            authorName="cameronfoxly"
+          />
+          <Octocat
+            imgLink="https://octodex.github.com//saint_nictocat/"
+            imgSRC="https://octodex.github.com//images/saint_nictocat.jpg"
+            number="#132"
+            catName="SaintNictocat"
+            authorLink="https://github.com/heyhayhay"
+            authorSRC="https://github.com/heyhayhay.png"
+            authorName="haleycarrol"
+          />
+        </main>
+        <footer>
+          <div>
+            <p>© 2013 – 2020 GitHub, Inc. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    )
   }
 }
